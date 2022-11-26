@@ -53,6 +53,14 @@
     margin:0px 10px 0px 10px;
 }
 
+.rightNav span a{
+    text-decoration: none;
+}
+.rightNav span a:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
 .user{
     margin:0px 10px 0px 10px;
 
@@ -204,9 +212,33 @@ input{
     width:200px;
 }
 
+#headDetails{
+    margin-left: 50px;
+}
 #imgDetails{
     width:600px;
     height: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.bodyDetails{
+    display: grid;
+    grid-template-areas: 
+    'imgDetails rightBodyDetails';
+}
+
+.rightBodyDetails{
+    display:flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.descBodyDetails{
+    margin-top: 30px;
+}
+.priceBodyDetails{
+    margin-top: 200px;
 }
 footer{
     /* border: 2px solid green; */
