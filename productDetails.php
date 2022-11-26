@@ -101,9 +101,89 @@
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
             }
+            else if($id == 9){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="milk.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 10){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="cheese.webp" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 11){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="butter.webp" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 12){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="eggs.webp" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 13){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="chicken.webp" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 14){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="chicken2.webp" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 15){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="fish.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 16){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="fish2.webp" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
         }
         ?>
     </div>
-    <?php include 'partials/_footer.php'; ?>
 </body>
+<?php include 'partials/_footer.php'; ?>
 </html>

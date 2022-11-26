@@ -16,7 +16,7 @@
             <div class="midNav">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Daily Product</a></li>
+                    <li><a href="dailyProduct.php">Daily Product</a></li>
                     <li><a href="grocery.php">Grocery</a></li>
                     <li><a href="#">Emergency</a></li>
                     <li><a href="contact.php">Contact</a></li>

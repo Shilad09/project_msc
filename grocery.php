@@ -80,6 +80,6 @@
         }
         ?>
     </div>
-    <?php include 'partials/_footer.php'; ?>
 </body>
+<?php include 'partials/_footer.php'; ?>
 </html>
