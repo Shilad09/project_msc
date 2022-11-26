@@ -23,6 +23,7 @@
                 </ul>
             </div>
             <div class="rightNav">
+                <span><a href="checkout.php">&#x1F6D2;</a></span>
                 <img src="defaultUser.jpg" alt="">
                 <div class="user">user</div>
             </div>
