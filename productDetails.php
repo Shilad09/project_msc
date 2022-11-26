@@ -22,49 +22,61 @@
             $desc = $row['description'];
             $price = $row['gprice'];
             if($id == 1){
-                echo '<div class="bodyDetails">
-                <h1>'.$name.'</h1>
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
                 <img id="imgDetails" src="potato.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
             }
-            if($id == 2){
-                echo '<div class="bodyDetails">
-                <h1>'.$name.'</h1>
+            else if($id == 2){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
                 <img id="imgDetails" src="onion.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
             }
             else if($id == 3){
-                echo '<div class="bodyDetails">
-                <h1>'.$name.'</h1>
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
                 <img id="imgDetails" src="Lemon.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
             }
             else if($id == 4){
-                echo '<div class="bodyDetails">
-                <h1>'.$name.'</h1>
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
                 <img id="imgDetails" src="tomato2.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
             }
             else if($id == 5){
-                echo '<div class="bodyDetails">
-                <h1>'.$name.'</h1>
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
                 <img id="imgDetails" src="cauliflower.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
             }
             else if($id == 6){
-                echo '<div class="bodyDetails">
-                <h1>'.$name.'</h1>
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
                 <img id="imgDetails" src="greenchilli.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
