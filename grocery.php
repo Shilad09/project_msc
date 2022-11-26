@@ -63,6 +63,20 @@
                 <h4>'.$price.'</h4>
                 </div>';
             }
+            else if($id == 7){
+                echo  '<div class=groceryBox>
+                <img id="groceryImg" src="carrot.jpg" alt="">
+                <h3><a href="productDetails.php?pid='.$id.'">'.$name.'</a></h3>
+                <h4>'.$price.'</h4>
+                </div>';
+            }
+            else if($id == 8){
+                echo  '<div class=groceryBox>
+                <img id="groceryImg" src="mastered-oil.jpg" alt="">
+                <h3><a href="productDetails.php?pid='.$id.'">'.$name.'</a></h3>
+                <h4>'.$price.'</h4>
+                </div>';
+            }
         }
         ?>
     </div>

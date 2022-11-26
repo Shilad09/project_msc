@@ -188,6 +188,9 @@ input{
 .boxInfoAddress{
     height: 50px;
 }
+h1{
+    margin-left: 80px;
+}
 .groceryContainer{
     /* display:flex;
     flex-direction: row; */
@@ -197,14 +200,17 @@ input{
     'groceryBox groceryBox groceryBox groceryBox';
     height: 700px;
     width: 1200px;
-    margin:5px 20px 5px 20px;
-    border:2px solid black;
+    margin:5px 20px 5px 80px;
+    /* border:2px solid black; */
+    background-color: greenyellow;
+
 }
 .groceryBox{
     width: 202px;
-    height: 216px;
+    height: 260px;
     border: 2px solid green;
     /* position: absolute; */
+    background-color: white;
     margin: 10px;
 }
 
@@ -239,6 +245,11 @@ input{
 }
 .priceBodyDetails{
     margin-top: 200px;
+}
+
+.groceryBox h3 a{
+    text-decoration: none;
+    color: orangered;
 }
 footer{
     /* border: 2px solid green; */

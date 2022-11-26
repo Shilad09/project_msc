@@ -81,6 +81,26 @@
                 <div class="priceBodyDetails">'.$price.'</div>
                 </div>';
             }
+            else if($id == 7){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="carrot.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
+            else if($id == 8){
+                echo '<h1 id="headDetails">'.$name.'</h1>
+                <div class="bodyDetails">
+                <img id="imgDetails" src="mastered-oil.jpg" alt="">
+                <div class="rightBodyDetails">
+                <h3>Product-Description</h3>
+                <div class="descBodyDetails">'.$desc.'</div>
+                <div class="priceBodyDetails">'.$price.'</div>
+                </div>';
+            }
         }
         ?>
     </div>
