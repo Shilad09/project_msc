@@ -255,7 +255,10 @@ h1{
 #quantityDetails{
     margin: 100px 0px 20px 0px;
 }
-
+#quantityDetails form{
+    padding: 0px;
+    margin: 0px;
+}
 .btn-product{
     display: grid;
     grid-template-areas: 
@@ -265,8 +268,31 @@ h1{
     text-decoration: none;
     color:white;
 }
+.btn{
+    width:140px;
+}
 
-
+.payment{
+    display:flex;
+    flex-direction: row;
+    /* width: 500px; */
+    margin-left: 50px;
+}
+.payment #imgDetails{
+    width: 262px;
+    height: 200px;
+    border: 2px dotted red;
+}
+.inputPayment{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    border: 2px solid green;
+    justify-content: space-evenly;
+}
+.inputPayment form{
+    margin-left: -130px;
+}
 footer{
     /* border: 2px solid green; */
     bottom: 0%;

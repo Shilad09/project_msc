@@ -30,18 +30,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 2){
@@ -53,18 +56,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 3){
@@ -76,18 +82,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 4){
@@ -99,18 +108,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 5){
@@ -122,17 +134,20 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="2" >2pc</option>
-                        <option value="3" selected>3pc</option>
-                        <option value="">5pc</option>
-                    </select>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                    <option value="2" >2pc</option>
+                    <option value="3" selected>3pc</option>
+                    <option value="5">5pc</option>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 6){
@@ -144,18 +159,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 7){
@@ -167,19 +185,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 8){
@@ -191,17 +211,20 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="1" selected>1L</option>
-                        <option value="2">2L</option>
-                        <option value="3">3L</option>
-                    </select>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                    <option value="1" selected>1L</option>
+                    <option value="2">2L</option>
+                    <option value="3">3L</option>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 9){
@@ -213,16 +236,19 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500mL</option>
-                        <option value="1" selected>1L</option>
-                    </select>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                    <option value="0.5" >500mL</option>
+                    <option value="1" selected>1L</option>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 10){
@@ -234,17 +260,20 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >100g</option>
-                        <option value="1" selected>500g</option>
-                        <option value="2">1KG</option>
-                    </select>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                    <option value="0.1" >100g</option>
+                    <option value="0.5" selected>500g</option>
+                    <option value="1">1KG</option>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 11){
@@ -256,17 +285,20 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                    <option value="0.5" >100g</option>
-                    <option value="1" selected>500g</option>
-                    <option value="2">1KG</option>
-                    </select>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                    <option value="0.1" >100g</option>
+                    <option value="0.5" selected>500g</option>
+                    <option value="1">1KG</option>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 12){
@@ -278,18 +310,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="4" >4pc</option>
-                        <option value="6" selected>6pc</option>
-                        <option value="8">8pc</option>
-                        <option value="12">12pc</option>
-                    </select>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                    <option value="4" >4pc</option>
+                    <option value="6" selected>6pc</option>
+                    <option value="8">8pc</option>
+                    <option value="12">12pc</option>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 13){
@@ -301,18 +336,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 14){
@@ -324,18 +362,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 15){
@@ -347,18 +388,21 @@
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
                     <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
+                        </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
+                        </form>
                 </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
             else if($id == 16){
@@ -371,20 +415,20 @@
                 <div id="quantityDetails">
                 <label for="Quantity">Quantity: </label>
                     <form action="order.php?pid='.$id.'" method="post">
-                    <select name="select" id="qD">
+                    <input type="hidden" name="action" value="quantity">
+                    <select name="selectedData">
                         <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                        <input type="submit" value="submit">
                         </select>
+                        <div class="btn-product">
+                        <button type="submit" class="btn"><a href="checkout.php">Add to cart</a></button>
+                        <button type="submit" class="btn">Order</button>
+                        </div>
                         </form>
                         </div>
                 <div class="priceBodyDetails">'.$price.'</div>
-                <div class="btn-product">
-                <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn" value="Submit"><a href="order.php?pid='.$id.'">Order</a></button>
-                </div>
                 </div>';
             }
         }
