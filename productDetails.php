@@ -369,18 +369,21 @@
                 <h3>Product-Description</h3>
                 <div class="descBodyDetails">'.$desc.'</div>
                 <div id="quantityDetails">
-                    <label for="Quantity">Quantity: </label>
-                    <select name="" id="qD">
-                        <option value="0.5" >500g</option>
+                <label for="Quantity">Quantity: </label>
+                    <form action="order.php?pid='.$id.'" method="post">
+                    <select name="select" id="qD">
+                        <option value="0.5">500g</option>
                         <option value="1" selected>1KG</option>
                         <option value="2">2KG</option>
                         <option value="3">3KG</option>
-                    </select>
-                </div>
+                        <input type="submit" value="submit">
+                        </select>
+                        </form>
+                        </div>
                 <div class="priceBodyDetails">'.$price.'</div>
                 <div class="btn-product">
                 <button type="submit" class="btn"><a href="#">Add to cart</a></button>
-                <button type="submit" class="btn"><a href="order.php?pid='.$id.'">Order</a></button>
+                <button type="submit" class="btn" value="Submit"><a href="order.php?pid='.$id.'">Order</a></button>
                 </div>
                 </div>';
             }

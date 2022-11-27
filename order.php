@@ -11,6 +11,18 @@
 </head>
 <body>
 <?php include 'partials/_navbar.php'; ?>
+<?php  include 'partials/_dbconnect.php';
+    // session_start();
+    // if($_SESSION['loggedin'] == true){
+    // }
+
+
+            $val = $_POST['select'];
+            $id = $_GET['pid'];
+            
+            echo "value is'.$val.'pid is'.$id.'";
+
+?>
 </body>
 <?php include 'partials/_footer.php'; ?>
 </html>
